@@ -1,61 +1,29 @@
-# Como Ayudar México
+# How to help
 
 ---
 
-## ¿Qué es Cómo Ayudar?
+## What is this project about?
 
-Es un proyecto que sirve como repositorio de información para ayudar a recopilar la información de asociaciones, entidades, organizaciones, centros de acopio o cualquier forma de ayuda en caso de desastres naturales.
+This project serves as an information repository to help gather information about associations, entities, organizations, collection centers or any type of help in case of natural disasters.
 
-## ¿Cómo puedo participar?
+## How can I participate?
 
-Actualmente existen 3 formas de participar.
+There are three ways to participate
 
-### Enviando información
-Entra [aquí](https://docs.google.com/forms/d/e/1FAIpQLSf_kylBvkVQXaJmBAILdpjKCsl6lERlhtnhFfB1_22g43sz4g/viewform) y llena la información necesaria, fíjate primero que no vayas a duplicar información ya existente.
+### Send information
 
-### Con código
-Por la emergencia, el sitio web esta hecho solamente con HTML Y CSS Básico, si eres un desarrollador/programador que quiera ayudar a con features nuevos por favor revise los issues y pr existentes.
+### With code 
+Take a look at the project issues. If you would like to contribute to one of our repositories, first identify the scale of what you would like to contribute. If it is small (grammar/spelling or a bug fix) feel free to start working on a fix. If you are submitting a feature or substantial code contribution, please discuss it with the team and ensure it follows the product roadmap.
 
-Si agregas funcionalidades al front-end, por favor agrega la descripción de tus textos en inglés y en español en `languages.js` y el atributo `data-lang`.
-
-### Agregando contactos
-Ayuda agregando tarjetas con información de contactos de emergencia relevantes, siguiendo los siguientes pasos y reemplazando los datos por los de la entidad de atención ciudadana que quieras agregar.
-
-1.- Clona el proyecto y crea una branch.
-
-2.- Copia y pega el siguiente div con la información correspondiente en la página de `contactos.html`.
-
-```html
-<article class="card">
-  <h2 class="card__title">Protección Civil CDMX</h2>
-  <!-- Agrega una pequeña descripción -->
-  <div class="card__info">
-    <div class="card__type">
-      <h4 data-lang="emergency_phone">Teléfono:</h4>
-      <!-- Especifica si la ayuda es en especie, monetaria, ayuda, etc. -->
-      <h3><a href="tel:5683-2222"><i class="fa fa-phone"></i>5683-2222 </a></h3>
-    </div>
-    <div class="card__location">
-      <h4 data-lang="emergency_where">Puedes contactar desde:</h4>
-      <!-- Especifica si se puede ayudar desde una parte o en todo México -->
-      <h3><i class="fa fa-globe"></i>CDMX</h3>
-    </div>
-  </div>
-  <!-- Link al contacto, imágen, correo o información -->
-  <a class="card__button" target="_blank" data-lang="more_info" href="http://www.proteccioncivil.cdmx.gob.mx/">Más Información</a>
-</article>
-
-```
-
-4.- Crea un Pull Request.
+* Fork it
+* Create your feature branch (git checkout -b feature/fooBar)
+* Commit your changes (git commit -am 'Add some fooBar')
+* Push to the branch (git push origin feature/fooBar)
+* Create a new Pull Request
 
 ---
 
-Si tienes alguna otra idea de como colaborar por favor contáctame.
-
----
-
-## Colaboradores
+## Collaborators
 - [@eldelentes](https://twitter.com/eldelentes)
 
 - [Héctor Morales](https://github.com/HectorMg)
@@ -98,5 +66,3 @@ Si tienes alguna otra idea de como colaborar por favor contáctame.
 
 - [Luis Pérez](https://github.com/luispeerez)
 
-
-[Aviso de privacidad](http://comoayudar.mx/privacidad.html)
